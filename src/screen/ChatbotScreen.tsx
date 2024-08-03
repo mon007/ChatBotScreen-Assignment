@@ -131,16 +131,13 @@ const ChatbotScreen = () => {
             </View>
 
             {error ? <Text>{error}</Text> : null}
-            <View style={styles.flatViewStyle}>
-                {recipes.length == 0 ?
-                    <Text style={{ color: 'red' }}>Sorry no results found</Text>
-                    :
+            <View style={styles.flatViewStyle}>       
                     <FlatList
                         data={recipes}
                         renderItem={renderRecipiesItem}
                         keyExtractor={(item) => item.id.toString()}
                     />
-                }
+                
 
 
             </View>
