@@ -4,6 +4,11 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>NSMicrophoneUsageDescription</key>
+<string>We need access to your microphone to enable voice recognition</string>
+<key>NSSpeechRecognitionUsageDescription</key>
+<string>We need access to your speech recognition to enable voice commands</string>
+
 	<key>CFBundleDisplayName</key>
 	<string>AssignmentWork</string>
 	<key>CFBundleExecutable</key>
